@@ -1,0 +1,73 @@
+@font-face {
+    font-family: zing;
+    src: url(font/ZingRustDemo-Base.otf);
+}
+
+@font-face {
+    font-family: sanomat;
+    src: url(font/SanomatSans-Regular-Trial.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+h1 {
+    font-family: zing;
+    color: #e8cf58;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: end;
+    width:50%;
+    margin:1rem;
+    text-shadow: 2px 2px 4px black;
+    float: right;
+}
+
+div {
+    width: 20vw;
+    height: calc(20vw*1.5);
+    background-image: url(img/fondo@2x.png);
+    background-size: cover;
+    border: 4px solid #e8cf58;
+    border-radius: 15px;
+    position: absolute;
+    top:20%;
+    bottom:20%;
+    left: 40%;
+    right: 40%;
+    box-shadow: 5px 5px 8px #34458a;
+    overflow: hidden;
+
+    #atlanta {
+        display: block;
+        margin: .9rem;
+        width:28%;
+        float: left;
+    }
+
+    #susvielles {
+        display: block;
+        width: 95%;
+        position: absolute;
+        bottom: 0;
+        right: -8%;
+    }
+}
+
+ul {
+    font-family: sanomat;
+    text-transform: uppercase;
+    font-size: .75rem;
+    color: #e8cf58;
+    margin: 1rem;
+    position: absolute;
+    top: 25%;
+
+    li {
+        margin-top: 1rem;
+    }
+}
